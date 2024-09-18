@@ -3,3 +3,50 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.container {
+  display: block;
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.toolbar {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+button {
+  margin-right: 5px;
+  padding: 6px 14px;
+  font-size: 16px;
+
+  color: #4b4a4a;
+  background-color: #fff;
+  border: 1px solid #4b4a4a;
+}
+
+button:hover {
+  color: #fff;
+  background-color: #d2cece;
+  border: 1px solid #d2cece;
+}
+
+.active {
+  color: #fff;
+  background-color: #717171;
+}
+
+.gallery {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-width: 33%;
+  -moz-column-width: 33%;
+  column-width: 33%;
+}
+
+.projects-img {
+  display: inline-block;
+  margin-bottom: 12px;
+}
